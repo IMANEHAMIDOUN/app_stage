@@ -25,11 +25,11 @@
 <div align="center"><a href="https://www.tonygabriel.ga/" target="_blank"><img src="https://i.imgur.com/yv9jx9A.gif" width="auto"     height="auto"
    alt="" class="rounded mx-auto d-block img-fluid"></a></div>
 
-   <br>	<br> <br>	
-		 
-		<div class="container" > <br>	<br>	<br>	<br>	
+   <br>	<br> <br>
+
+		<div class="container" > <br>	<br>	<br>	<br>
  	<div class="row">
-    	<div class="col"><img src="img\ES.png" width="450" height="450" class="Avatar" ></div>
+    	<div class="col"><img src="img\page12.jpg" width="450" height="450" class="Avatar" ></div>
     	<div class="col">
 
         <form class="login100-form validate-form" method="POST" action="{{ route('login') }}">
@@ -58,7 +58,7 @@
         </div>
 
         <div class="flex items-center justify-end mt-4">
-        
+
 
             <x-jet-button class="ml-4" class="btn btn-success btn-lg btn-block " >
                 {{ __('Log in') }}
@@ -67,10 +67,10 @@
     </form>
 		</div>
  	</div>
- 
+
 								<br> <br> <br> <br>
                                     <!-- Copyright -->
-    <div class="footer-copyright text-center py-3">© 2022 E-Stock Copyright
+    <div class="footer-copyright text-center py-3">© 2023 MAROC-TASWIQ Copyright
     </div>
                                     <!-- Fin de Copyright -->
 </footer>

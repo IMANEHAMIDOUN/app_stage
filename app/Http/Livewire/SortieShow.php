@@ -16,7 +16,7 @@ class SortieShow extends Component
             'prixSortie' => 'required',
             'dateSortie' => 'required',
             'nomClient'=>'required|string',
-            'nomProduit' => 'required'
+            'nomProduit' => 'required| string',
         ];
     }
     public function updated($fields)

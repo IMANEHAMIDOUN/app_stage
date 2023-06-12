@@ -39,7 +39,7 @@
             <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal" wire:click="closeModal"style="background-color:grey" >Quitter</button>
                 <button type="submit" class="btn btn-primary"style="background-color:blue">Sauvgarder</button>
-            
+
             </div>
     </form>
     </div>
@@ -63,7 +63,7 @@
             <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal" wire:click="closeModal"style="background-color:grey">Quitter</button>
                 <button type="submit" class="btn btn-danger"style="background-color:red">Oui!</button>
-            
+
             </div>
     </form>
     </div>
@@ -112,7 +112,7 @@
             <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" wire:click="closeModal" data-bs-dismiss="modal"style="background-color:grey">Quitter</button>
                 <button type="submit" class="btn btn-success" style="background-color:green">Modifier</button>
-            
+
             </div>
     </form>
     </div>

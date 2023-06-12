@@ -23,8 +23,8 @@
         <input type="text" wire:model="categorie" class="form-control">
         @error('categorie') <span class="text-danger">{{ $message }}</span> @enderror
          </div>
-        
-       
+
+
         <div class="modal-footer">
             <button type="button" class="btn btn-secondary" style="background-color:grey" wire:click="closeModal" data-bs-dismiss="modal">Quitter</button>
             <button type="submit" class="btn btn-primary" style="background-color:blue">Sauvgarder</button>
@@ -40,7 +40,7 @@
   <div class="modal-dialog">
     <div class="modal-content">
       <div class="modal-header">
-        <h5 class="modal-title" id="updateProduitModalLabel">Ajout d'un produit</h5>
+        <h5 class="modal-title" id="updateProduitModalLabel">Modification d'un produit</h5>
         <button type="button" class="btn-close" data-bs-dismiss="modal" wire:click="closeModal"  aria-label="Close"></button>
       </div>
       <form wire:submit.prevent="updateProduit">
@@ -59,8 +59,8 @@
         <input type="text" wire:model="categorie" class="form-control">
         @error('categorie') <span class="text-danger">{{ $message }}</span> @enderror
          </div>
-        
-       
+
+
         <div class="modal-footer">
             <button type="button" class="btn btn-secondary"style="background-color:grey"  wire:click="closeModal" data-bs-dismiss="modal">Quitter</button>
             <button type="submit" class="btn btn-sucess" style="background-color:green">Modifier</button>
@@ -86,7 +86,7 @@
             <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" style="background-color:grey" data-bs-dismiss="modal" wire:click="closeModal">Quitter</button>
                 <button type="submit" class="btn btn-danger" style="background-color:red">Oui!</button>
-            
+
             </div>
     </form>
     </div>

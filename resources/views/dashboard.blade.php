@@ -7,12 +7,11 @@
 
 <div class="p-6 sm:px-20 bg-white border-b border-green-200">
     <div>
-       <img src="img/esdash.png" alt="" height=180 width=180 >
-        <h6>Bienvenue dans E-Stock!</h6>
+       <img src="img/dach2.png" alt="" height=180 width=180 >
+        <h6>Bienvenue dans votre Stock!</h6>
     </div>
 
     <div class="mt-6 text-gray-600">
-        E-Stock est une application de gestion des stocks d'une manière électronique qui permet au responsable de gérer les produits ,les clients ,les fournisseurs et les entrées/sorties du stock. 
     </div>
 </div>
 
@@ -28,7 +27,7 @@
 
         <div class="ml-12">
             <div class="mt-2 text-sm text-gray-500">
-                
+
                 Cette Partie permet au responsable de gérer les produits en ajoutant , supprimant ou modifiant un tel produit.
             </div>
 
@@ -41,7 +40,7 @@
                         <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-double-right" viewBox="0 0 16 16">
   <path fill-rule="evenodd" d="M3.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L9.293 8 3.646 2.354a.5.5 0 0 1 0-.708z"/>
   <path fill-rule="evenodd" d="M7.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L13.293 8 7.646 2.354a.5.5 0 0 1 0-.708z"/>
-                        </svg>                                         
+                        </svg>
            </div>
                 </div>
             </a>
@@ -58,7 +57,7 @@
 
         <div class="ml-12">
             <div class="mt-2 text-sm text-gray-500">
-                
+
             Cette Partie permet au responsable de gérer les clients en ajoutant , supprimant ou modifiant les informations sur un client qui a acheté un tel produit du stock.
             </div>
 
@@ -71,11 +70,11 @@
                         <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-double-right" viewBox="0 0 16 16">
   <path fill-rule="evenodd" d="M3.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L9.293 8 3.646 2.354a.5.5 0 0 1 0-.708z"/>
   <path fill-rule="evenodd" d="M7.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L13.293 8 7.646 2.354a.5.5 0 0 1 0-.708z"/>
-</svg>                  
+</svg>
                         </div>
                         <br>
 
-                        
+
                 </div>
             </a>
         </div>
@@ -92,7 +91,7 @@
 
         <div class="ml-12">
             <div class="mt-2 text-sm text-gray-500">
-                
+
             Cette Partie permet au responsable de gérer les fournisseurs en ajoutant , supprimant ou modifiant les informations sur un fournisseur duquel on a acheté un tel produit.
             </div>
 
@@ -104,11 +103,11 @@
                         <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-double-right" viewBox="0 0 16 16">
   <path fill-rule="evenodd" d="M3.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L9.293 8 3.646 2.354a.5.5 0 0 1 0-.708z"/>
   <path fill-rule="evenodd" d="M7.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L13.293 8 7.646 2.354a.5.5 0 0 1 0-.708z"/>
-</svg>                  
+</svg>
 </div>
                         <br>
 
-                        
+
                 </div>
             </a>
         </div>
@@ -127,7 +126,7 @@
 
         <div class="ml-12">
             <div class="mt-2 text-sm text-gray-500">
-                
+
             Cette Partie permet au responsable de gérer les E/S du stock en ajoutant une entrée à partir d'un fournisseur ou une sortie vers un client ,ou en supprimant ou en modifiant les informations sur ces E/S du stock.
             </div>
 
@@ -139,11 +138,11 @@
                         <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-double-right" viewBox="0 0 16 16">
   <path fill-rule="evenodd" d="M3.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L9.293 8 3.646 2.354a.5.5 0 0 1 0-.708z"/>
   <path fill-rule="evenodd" d="M7.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L13.293 8 7.646 2.354a.5.5 0 0 1 0-.708z"/>
-</svg>                       
+</svg>
  </div>
                         <br>
 
-                        
+
                 </div>
             </a>
         </div>
@@ -156,5 +155,5 @@
         </h2>
     </x-slot>
 
-    
+
 </x-app-layout>

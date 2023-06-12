@@ -10,10 +10,11 @@ class Entree extends Model
     use HasFactory;
     protected $table='entrees';
     protected $fillable=[
-        'qteSortie',
-        'prixSortie',
-        'dateSortie',
+
+        'qteEntree',
+        'prixEntree',
+        'dateEntree',
         'nomFournisseur',
-        'nomproduit'
+        'nomProduit'
     ];
 }

@@ -29,7 +29,7 @@ class EntreeShow extends Component
         session()->flash('message','Entrée bien ajoutée');
         $this->resetInput();
         $this->dispatchBrowserEvent('close-modal');
-        
+
     }
     public function updateEntree(){
         $validatedData = $this->validate();

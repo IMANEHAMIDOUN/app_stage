@@ -8,12 +8,12 @@ use Illuminate\Database\Eloquent\Model;
 class Sortie extends Model
 {
     use HasFactory;
-    protected $table='sorties';
+
     protected $fillable=[
         'qteSortie',
         'prixSortie',
         'dateSortie',
-        'idClient',
-        'idProduit'
+        'nomClient',
+        'nomProduit',
     ];
 }
